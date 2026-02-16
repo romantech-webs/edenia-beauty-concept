@@ -1,281 +1,337 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "EDENIA Beauty Concept.",
+  logo: "/images/logo.png",
+  tagline: "Tu espacio de belleza y bienestar en Villarrobledo",
+  description: "EDENIA Beauty Concept es tu centro de estética de referencia en Villarrobledo, Albacete. Liderado por Laura, ofrecemos tratamientos faciales personalizados, masajes relajantes, depilación láser y cuidados corporales con tecnología avanzada. Con 5 estrellas en Google y 32 reseñas, nos distinguimos por un trato cercano, instalaciones impecables y resultados visibles que transforman tu bienestar.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#b7a597",
+    secondary: "#37322d",
+    accent: "#c5b6ad",
+    neutral: "#f9f8f7"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
+  phone: "644 60 95 65",
+  whatsapp: "+34644609565",
   whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "Av. de los Reyes Católicos, 56, local bajo, 02600 Villarrobledo, Albacete, España",
+    city: "Villarrobledo",
+    province: "Albacete",
+    postalCode: "02600",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=9964272655753130972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=EDENIA%20Beauty%20Concept.%20%4039.2644%2C-2.59744&z=16&output=embed",
+  coordinates: {
+    lat: 39.2644,
+    lng: -2.59744
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes",
+      hours: "16:00–20:00"
+    },
+    {
+      days: "martes - viernes",
+      hours: "10:00–14:00, 16:00–20:00"
+    },
+    {
+      days: "sábado",
+      hours: "9:00–13:00"
+    },
+    {
+      days: "domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 5,
+    count: 32,
+    url: "https://maps.google.com/?cid=9964272655753130972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Almudena Santos Jareño",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Tuve una experiencia de 10 gracias a Laura. Me hice un masaje relajante y desde el primer momento noté su profesionalidad y dedicación. Es una persona cercana, atenta a cada detalle, y transmite mucha tranquilidad, lo que hizo que pudiera desconectar completamente. El ambiente del centro también acompaña, muy limpio y acogedor. Sin duda, repetiré. Recomendadísimo.",
+        date: "Hace 9 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "José Ramón Losa Ramírez",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Mi experiencia en La Edenia ha sido excelente. Desde el primer momento recibí un trato cercano, amable y muy profesional. Laura, transmite confianza y demuestra una gran preparación en cada servicio, explicando todo con claridad y cuidando cada detalle. Me sentí muy cómodo y atendido en todo momento. Sin duda, lo recomiendo y repetiré.”",
+        date: "Hace 5 meses"
       },
       {
-        author: "Melanie Ponce",
+        author: "Cari Roldán Morcillo",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Me hice una limpieza facial en Edenia y salí encantada. El trato fue excelente desde el primer minuto, Laura me explicó todo el proceso desde el principio. El lugar es impecable, muy relajante y se nota el cuidado por cada mínimo detalle. Sin duda, lo recomiendo 100%",
+        date: "Hace 3 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Mel Romano",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Visitar Edenia Beauty Concept ha sido una experiencia increíble. El ambiente es relajante, el trato de Laura exquisito y los tratamientos de alta calidad y súper efectivos. Un espacio donde la belleza y el bienestar van de la mano. ¡100% recomendable!",
+        date: "Hace 10 meses"
       },
-    ],
+      {
+        author: "ELISABETH PELLEJERO DE LA OSA",
+        rating: 5,
+        text: "Trato e Instalaciones inmejorables. Ofrecen varios tratamientos y te aconsejan el mejor asi como el cuidado para casa. Súper recomendable y Laura un encanto. Repito todos los meses jeje",
+        date: "Hace 2 semanas"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "limpieza-facial",
+      name: "Limpieza Facial Profunda",
+      description: "Tratamiento facial completo que elimina impurezas, purifica los poros y devuelve la luminosidad natural a tu piel. Te explicamos cada paso del proceso y adaptamos los productos a tu tipo de piel. Saldrás con el rostro fresco, renovado y radiante.",
+      benefits: [
+        "Piel profundamente limpia y oxigenada",
+        "Reducción visible de puntos negros e imperfecciones",
+        "Luminosidad y suavidad inmediata"
+      ],
+      icon: "Sparkles"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
-    },
-    {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "masajes-relajantes",
+      name: "Masajes Relajantes",
+      description: "Desconecta completamente con nuestros masajes terapéuticos personalizados. Laura cuida cada detalle para que liberes tensiones, reduzcas el estrés y recuperes tu equilibrio. Un momento solo para ti en un ambiente de máxima tranquilidad.",
+      benefits: [
+        "Alivio profundo de tensiones musculares",
+        "Desconexión total y renovación mental",
+        "Mejora de la circulación y bienestar general"
+      ],
+      icon: "Heart"
     },
     {
       id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      name: "Tratamientos Faciales Antiedad",
+      description: "Cuidados faciales avanzados diseñados para combatir los signos del envejecimiento. Hidratación profunda, reafirmación y luminosidad con productos premium y técnicas de última generación. Resultados visibles desde la primera sesión.",
+      benefits: [
+        "Reducción de arrugas y líneas de expresión",
+        "Piel firme, hidratada y rejuvenecida",
+        "Efecto lifting natural y duradero"
+      ],
+      icon: "Flower2"
+    },
+    {
+      id: "depilacion-laser",
+      name: "Depilación Láser Definitiva",
+      description: "Olvídate del vello para siempre con nuestra tecnología láser de última generación. Tratamiento seguro, efectivo y adaptado a cada tipo de piel y vello. Te asesoramos en cada sesión para garantizar los mejores resultados.",
+      benefits: [
+        "Eliminación definitiva del vello no deseado",
+        "Piel suave y sin irritaciones",
+        "Resultados progresivos y duraderos"
+      ],
+      icon: "Zap"
     },
     {
       id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      name: "Tratamientos Corporales Reductores",
+      description: "Tratamientos corporales avanzados para moldear tu silueta, reducir celulitis y reafirmar la piel. Combinamos técnicas manuales con tecnología de vanguardia para resultados efectivos y visibles. Te acompañamos con consejos de cuidado en casa.",
+      benefits: [
+        "Reducción de volumen y celulitis visible",
+        "Piel más firme y tonificada",
+        "Mejora de la textura y elasticidad cutánea"
+      ],
+      icon: "Sparkles"
     },
     {
       id: "manicura-pedicura",
       name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      description: "Cuidado completo de manos y pies con esmaltado de alta calidad y larga duración. Tratamos cada detalle para que luzcas unas manos y pies impecables. Ambiente relajante y productos que cuidan tu piel.",
+      benefits: [
+        "Manos y pies perfectamente cuidados",
+        "Esmaltado duradero y acabado profesional",
+        "Hidratación profunda de cutículas y piel"
+      ],
+      icon: "Hand"
+    },
+    {
+      id: "micropigmentacion",
+      name: "Micropigmentación",
+      description: "Maquillaje semipermanente para cejas, labios y ojos con resultados naturales y duraderos. Diseñamos el look perfecto para ti, realzando tu belleza natural. Técnica precisa y pigmentos de máxima calidad.",
+      benefits: [
+        "Aspecto natural y definido las 24 horas",
+        "Ahorro de tiempo en tu rutina diaria",
+        "Resultados duraderos hasta 2 años"
+      ],
+      icon: "Eye"
     },
     {
       id: "extensiones-pestanas",
       name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
-    },
-    {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      description: "Consigue una mirada impactante con nuestras extensiones de pestañas pelo a pelo. Aplicación cuidadosa que respeta tus pestañas naturales y crea el efecto que deseas: natural, volumen o glamour. Luce pestañas perfectas sin máscara.",
+      benefits: [
+        "Mirada intensa y expresiva sin maquillaje",
+        "Aplicación personalizada según tu estilo",
+        "Duración de 3-4 semanas con cuidado adecuado"
+      ],
+      icon: "Eye"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con Nosotros",
+      description: "Llámanos al 644 60 95 65 o escríbenos por WhatsApp para reservar tu cita. Te atenderemos personalmente y resolveremos todas tus dudas sobre nuestros tratamientos."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Consulta Personalizada",
+      description: "Laura analizará tus necesidades específicas, tipo de piel y objetivos. Te explicaremos cada tratamiento con claridad y diseñaremos juntos el plan perfecto para ti, adaptado a tu ritmo de vida."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tu Tratamiento",
+      description: "Disfruta de tu sesión en nuestras instalaciones impecables y relajantes. Aplicamos técnicas avanzadas con productos premium, cuidando cada mínimo detalle para que te sientas cómoda y atendida en todo momento."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Resultados y Seguimiento",
+      description: "Verás resultados visibles desde la primera sesión. Te proporcionamos consejos de cuidado en casa y seguimiento personalizado para mantener y potenciar los efectos de tu tratamiento a largo plazo."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Excelencia Avalada: 5 Estrellas en Google",
+      description: "Nuestras 32 reseñas con valoración perfecta de 5 estrellas reflejan el compromiso de EDENIA Beauty Concept con la calidad y la satisfacción de cada cliente. La confianza de quienes ya nos han visitado es nuestra mejor carta de presentación.",
+      icon: "Sparkles"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Profesionalidad y Trato Cercano",
+      description: "Laura combina una gran preparación técnica con un trato cálido y personal que transmite confianza desde el primer momento. Te explicamos cada proceso con claridad y cuidamos cada detalle para que te sientas cómoda y atendida en todo momento.",
+      icon: "Heart"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Instalaciones Impecables y Relajantes",
+      description: "Nuestro centro está diseñado para que desconectes completamente. Un espacio limpio, acogedor y con un ambiente que invita a la relajación. Cada rincón está pensado para ofrecerte una experiencia de bienestar integral desde que cruzas la puerta.",
+      icon: "Flower2"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Resultados Visibles y Efectivos",
+      description: "Utilizamos técnicas avanzadas y productos premium que garantizan resultados reales desde la primera sesión. Además, te asesoramos sobre el mejor cuidado en casa para prolongar y potenciar los efectos de cada tratamiento a largo plazo.",
+      icon: "Zap"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Laura",
+      role: "Directora y Especialista en Estética",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En EDENIA Beauty Concept. nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "EDENIA Beauty Concept. - Imagen 1"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "EDENIA Beauty Concept. - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "EDENIA Beauty Concept. - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "EDENIA Beauty Concept. - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "EDENIA Beauty Concept. - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "EDENIA Beauty Concept. - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "EDENIA Beauty Concept. - Imagen 7"
+    },
+    {
+      src: "/images/gallery/8.webp",
+      alt: "EDENIA Beauty Concept. - Imagen 8"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué tratamientos son los más demandados en EDENIA Beauty Concept?",
+      answer: "Nuestros servicios estrella son las limpiezas faciales profundas y los masajes relajantes, ambos muy valorados por nuestros clientes. También destacan nuestros tratamientos faciales antiedad, depilación láser y tratamientos corporales reductores. Laura te asesorará personalmente para recomendarte el tratamiento más adecuado según tus necesidades y objetivos específicos."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Cómo puedo reservar mi cita en el centro?",
+      answer: "Reservar tu cita es muy sencillo. Puedes llamarnos directamente al 644 60 95 65 o contactarnos por WhatsApp en el mismo número. Te atenderemos personalmente, resolveremos tus dudas y encontraremos el mejor horario para ti. Nuestro trato cercano y profesional comienza desde el primer contacto."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Qué hace especial a EDENIA Beauty Concept?",
+      answer: "Contamos con una valoración de 5 estrellas en Google con 32 reseñas que destacan nuestra profesionalidad, trato cercano y resultados efectivos. Nuestras instalaciones son impecables y muy relajantes, y Laura cuida cada mínimo detalle en todos los tratamientos. Además, te explicamos todo el proceso y te asesoramos sobre el mejor cuidado en casa para prolongar los resultados."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Los tratamientos faciales son aptos para todo tipo de piel?",
+      answer: "Sí, totalmente. En EDENIA Beauty Concept personalizamos cada tratamiento facial según tu tipo de piel y necesidades específicas. Durante la consulta inicial analizamos tu piel y seleccionamos los productos y técnicas más adecuados para ti. Ya sea piel seca, grasa, mixta o sensible, diseñamos un protocolo que garantice los mejores resultados sin irritaciones."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Cuántas sesiones necesito para ver resultados?",
+      answer: "Depende del tratamiento elegido. En tratamientos como limpiezas faciales o masajes, notarás resultados inmediatos desde la primera sesión. Para tratamientos de depilación láser o reductores corporales, recomendamos un plan de varias sesiones espaciadas según protocolo. Durante tu consulta personalizada, Laura te explicará el número de sesiones estimado y la frecuencia ideal para tu caso."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Dónde está ubicado EDENIA Beauty Concept?",
+      answer: "Estamos en Villarrobledo, Albacete, en un espacio diseñado para tu comodidad y relajación. Nuestras instalaciones son amplias, impecables y cuentan con un ambiente acogedor que te permitirá desconectar desde que entras. Si necesitas indicaciones específicas para llegar, no dudes en contactarnos y te guiaremos encantados."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué productos utilizáis en los tratamientos?",
+      answer: "Trabajamos exclusivamente con productos premium de alta calidad, seleccionados específicamente para cada tipo de tratamiento y tipo de piel. Utilizamos marcas profesionales reconocidas que garantizan resultados efectivos y seguros. Además, Laura te recomendará productos de cuidado en casa para mantener y potenciar los resultados de tu tratamiento entre sesiones."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Ofrecéis planes de tratamiento personalizados?",
+      answer: "Absolutamente. En EDENIA Beauty Concept cada cliente recibe un plan totalmente personalizado. Analizamos tus necesidades, objetivos y presupuesto para diseñar juntos el tratamiento o combinación de tratamientos más efectivo. Te explicamos cada paso con claridad y ajustamos el plan según tu evolución y preferencias para garantizar tu satisfacción total."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | EDENIA Beauty Concept",
+    defaultTitle: "EDENIA Beauty Concept | Centro de Estética en Villarrobledo",
+    defaultDescription: "Centro de estética en Villarrobledo, Albacete. Tratamientos faciales, masajes relajantes, depilación láser y cuidados corporales. 5★ en Google. ¡Pide tu cita! 644 60 95 65",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "EDENIA Beauty Concept",
+      "centro de estética Villarrobledo",
+      "tratamientos faciales Villarrobledo",
+      "limpieza facial Villarrobledo",
+      "masajes relajantes Villarrobledo",
+      "depilación láser Villarrobledo",
+      "estética Albacete",
+      "tratamientos corporales Villarrobledo",
+      "micropigmentación Villarrobledo",
+      "extensiones pestañas Villarrobledo",
+      "centro belleza Villarrobledo",
+      "manicura pedicura Villarrobledo"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "EDENIA Beauty Concept.",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "Av. de los Reyes Católicos, 56, local bajo, 02600 Villarrobledo, Albacete, España, Villarrobledo, Albacete"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
+  heroHeadline: [
+    "Tu Centro de",
+    "Belleza",
+    "en Villarrobledo"
+  ],
+  heroDescription: "En EDENIA Beauty Concept combinamos profesionalidad y cercanía para ofrecerte los tratamientos de estética más efectivos en Villarrobledo. Desde limpiezas faciales profundas hasta masajes relajantes, cada servicio está diseñado para que desconectes, te cuides y veas resultados reales en un ambiente acogedor y relajante.",
+  specialty: "Tratamientos Faciales Personalizados",
   ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
+  ctaHeadline: "¿Lista para sentirte radiante y renovada?",
+  ctaDescription: "Reserva tu cita en EDENIA Beauty Concept y descubre por qué somos el centro de estética mejor valorado de Villarrobledo. Te asesoramos personalmente para diseñar el tratamiento perfecto para ti.",
   statsLabel: "Clientas",
   schemaType: "BeautySalon",
   sectionCopy: {
@@ -300,8 +356,8 @@ export const clinic = {
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
     teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamDescription: "Experiencia y pasión al servicio de tu belleza"
+  }
 }
 
 export type Clinic = typeof clinic
